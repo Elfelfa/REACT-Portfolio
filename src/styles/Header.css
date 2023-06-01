@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --white: #FFF;
+    --darkblue: rgb(68, 88, 118);
+    --darkgrey: rgb(49, 51, 56);
+    --aqua: rgb(146, 204, 205);
+}
+
+body {
+    background-color: #FFF;
+    color: var(--darkblue);
+    border-color: var(--darkblue);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    background-color: var(--aqua);
+    color: var(--darkgrey);
+    font-size: 38px;
+    font-weight: bold;
+    text-align: right;
+    width: 250px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+
+h2 {
+    background-color: var(--aqua);
+    color: var(--darkgrey);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: auto 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--aqua);
+    margin-right: 10px;
+    background-image: linear-gradient(270deg, var(--aqua) 0%, var(--aqua) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background-size: 100% 100%;
+    color: var(--darkgrey);
+}
+
+.body-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.body-content aside {
+    display: flex;
+    width: 150px;
+    text-align: right;
+    font-size: 64px;
+    margin: 30px 20px 30px 124px;
+    padding-right: 2.5%;
+    border-right-color: var(--darkblue);
+    border-right-width: 4px;
+    border-style: solid;
+    justify-content: flex-end;
+}
+
+.body-content p {
+    justify-content: flex-end;
+    font-size: 18px;
+    word-wrap: normal;
+    margin-top: 1.6%;
+    width:67%;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.card-hover {
+    background-color:rgba(68, 88, 118, 0.4);
+    transition: background-color 0.5s ease-out;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-hover:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card-large {
+    margin: 20px;
+    position: relative;
+    border: 3px solid var(--aqua);
+    flex-grow: 3;
+}
+
+.card-large div {
+    background-color: var(--aqua);
+    color: var(--darkgrey);
+    position: absolute;
+    padding: 10px 10px;
+    bottom: 15px;
+    left: 0px;
+}
+
+.card-small {
+    margin: 20px;
+    position: relative;
+    border: 3px solid var(--aqua);
+    flex-basis: 50%;
+    max-height: 35%;
+    background-color: var(--darkblue);
+}
+
+.card-small div {
+    background-color: var(--aqua);
+    color: var(--darkgrey);
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    padding: 10px 10px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 15%;
+}
+
+.contacts a {
+    font-size: 20px;
+    font-weight: normal;
+    margin: auto auto;
+    padding-bottom: 3px;
+    border-bottom: 3px solid;
+    text-decoration: none;
+}
+
+.contacts a:-webkit-any-link {
+    color: var(--darkblue);
+    text-decoration: none;
+}
+
+.header-top {
+    display: flex;
+    background: var(--darkgrey);
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.hero {
+    display: inline-block;
+    position: relative;
+    height: 225px;
+    background:linear-gradient(to top, rgba(35, 99, 196, 0.6), rgba(85, 153, 255, 0.4)), url("../../public/02-hero-bg.jpg");
+    background-size: 1900px;
+}
+
+.hero::after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: 20px;
+    right: 75px;
+    padding: 10px 10px;
+}
+
+#project-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    margin-top: 25px;
+    height: 700px;
+    margin-right: 15%;
+    width: 100%;
+}
+
+#project-cards section{
+    display: flex;
+    flex-flow: column wrap;
+    height: 350px;
+}
