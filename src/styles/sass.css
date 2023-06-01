@@ -11,7 +11,7 @@
     --aqua: rgb(146, 204, 205);
 }
 
-body {
+#root {
     background-color: #FFF;
     color: var(--darkblue);
     border-color: var(--darkblue);
@@ -84,7 +84,7 @@ nav a:hover {
     justify-content: flex-start;
 }
 
-.body-content aside {
+#asideLabels {
     display: flex;
     width: 150px;
     text-align: right;
@@ -93,7 +93,8 @@ nav a:hover {
     padding-right: 2.5%;
     border-right-color: var(--darkblue);
     border-right-width: 4px;
-    border-style: solid;
+    border-right-style: solid;
+
     justify-content: flex-end;
 }
 
@@ -186,7 +187,6 @@ nav a:hover {
     display: inline-block;
     position: relative;
     height: 225px;
-    background:linear-gradient(to top, rgba(35, 99, 196, 0.6), rgba(85, 153, 255, 0.4)), url("../../public/02-hero-bg.jpg");
     background-size: 1900px;
 }
 
