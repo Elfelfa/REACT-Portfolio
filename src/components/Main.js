@@ -28,19 +28,19 @@ function Main() {
 
                 <section id="project-cards">
                     <div className="card-large">
-                        <a href="https://github.com/Elfelfa/lorem-idle">
-                            <img src="./images/lorem-idle.png" alt="Real People Travel.png" />
+                        <a href="https://github.com/Jamesgit22/Threadi">
+                            <img src="./images/threadi.png" alt="threadi.png" />
                             <canvas className="card-hover"></canvas>
                         </a>
                         <div>
-                            <h2>Lorem Idle</h2>
-                            <h3>Express/MySQL2</h3>
+                            <h2>Threadi</h2>
+                            <h3>MERN/Apollo GraphQL</h3>
                         </div>
                     </div>
                     <section>
                         <div className="card-small">
                             <a href="https://elfelfa.github.io/Real-People-Travel/index.html" className="card-hover">
-                                <img src="./images/real-people-travel.png" alt="LED Wall.jpg" />
+                                <img src="./images/real-people-travel.png" alt="Real People Travel.png" />
                                 <canvas className="card-hover"></canvas>
                             </a>
                             <div>
@@ -49,13 +49,13 @@ function Main() {
                             </div>
                         </div>
                         <div className="card-small">
-                            <a href="https://github.com/Elfelfa/e-commerce-db" className="card-hover">
-                                <img src="./images/e-commerce.png" alt="E-commerce App.jpg" />
+                            <a href="https://github.com/Elfelfa/lorem-idle" className="card-hover">
+                                <img src="./images/e-commerce.png" alt="Lorem Idle.png" />
                                 <canvas className="card-hover"></canvas>
                             </a>
                             <div>
-                                <h2>E-Commerce DB</h2>
-                                <h3>MySQL2/Express</h3>
+                                <h2>Lorem Idle</h2>
+                                <h3>Express/MySQL2</h3>
                             </div>
                         </div>
                         <div className="card-small">
@@ -69,13 +69,13 @@ function Main() {
                             </div>
                         </div>
                         <div className="card-small">
-                            <a href="https://github.com/Elfelfa/business-database/" className="card-hover">
-                                <img src="./images/businessDB.png" alt="Business DB.jpg" />
+                            <a href="https://github.com/Elfelfa/e-commerce-db" className="card-hover">
+                                <img src="./images/businessDB.png" alt="E-commerce App.jpg" />
                                 <canvas className="card-hover"></canvas>
                             </a>
                             <div>
-                                <h2>Business DB</h2>
-                                <h3>MySQL2/Inquirer</h3>
+                                <h2>E-Commerce DB</h2>
+                                <h3>MySQL2/Express</h3>
                             </div>
                         </div>
                     </section>
